@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="consoles">
+        <h2>Welcome to the Consoles app</h2>
+    </div>
+    {% for console in consoles %}
+        {% if console.price > 300 %}
+            <p>Expensive!</p>
+        {% else %}
+            <p>Not so expensive</p>
+        {% endif %}
+        <h4>{{ console.name }}</h4>
+        <p>{{ console.price }}$</p>
+    {% endfor %}
+{% endblock %}
