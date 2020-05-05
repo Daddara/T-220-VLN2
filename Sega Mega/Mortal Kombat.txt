@@ -1,0 +1,5 @@
+('Mortal Kombat',
+'https://upload.wikimedia.org/wikipedia/en/3/33/Mortal_Kombat_cover.JPG',
+'08-01-1992',
+'Mortal Kombat is an arcade fighting game developed and published by Midway in 1992 as the first title in the Mortal Kombat series. It was subsequently released by Acclaim Entertainment for nearly every home platform of the time. The game focuses on several characters of various intentions who enter a martial arts tournament with worldly consequences. It introduced many key aspects of the Mortal Kombat series, including the unique five-button control scheme and gory finishing moves called Fatalities.',
+'25.99')

@@ -1,0 +1,8 @@
+('Metal Gear Solid',
+'https://upload.wikimedia.org/wikipedia/en/3/33/Metal_Gear_Solid_cover_art.png',
+'09-03-1998',
+'Metal Gear Solid is a stealth game developed by Konami and released for the 
+PlayStation in 1998. It was directed, produced, and written by Hideo Kojima, 
+and follows the MSX2 video games Metal Gear and Metal Gear 2: Solid Snake, 
+which Kojima also worked on.',
+'29.99')

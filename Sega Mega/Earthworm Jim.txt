@@ -1,0 +1,5 @@
+('Earthworm Jim',
+'https://www.mobygames.com/images/covers/l/80538-earthworm-jim-genesis-front-cover.jpg',
+'04-15-1994',
+'Earthworm Jim is a 1994 run and gun platform game developed by Shiny Entertainment, featuring an earthworm named Jim, who wears a robotic suit and battles evil. The game was released for the Sega Genesis, and subsequently ported to a number of other video game consoles.',
+'19.99')

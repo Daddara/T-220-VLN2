@@ -1,0 +1,11 @@
+('Resident Evil 2',
+'https://images.lukiegames.com/t_300e2/assets/images/PS1/ps1_resident_evil_2-120314.jpg',
+'21-01-1998',
+'Resident Evil 2[b] is a survival horror game developed and published by Capcom 
+for the PlayStation in 1998. The player controls Leon S. Kennedy and Claire Redfield,
+who must escape Raccoon City after its citizens are transformed into zombies 
+by a biological weapon two months after the events of the original Resident Evil. 
+The gameplay focuses on exploration, puzzles, and combat; 
+the main difference from its predecessor are the branching paths, 
+with each player character having unique storylines and obstacles.',
+'25.99')
