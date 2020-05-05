@@ -12,7 +12,7 @@
         <h4>{{ console.name }}</h4>
         <p>{{ console.price }}$</p>
         <p>{{ console.description }}</p>
-        <p>{{ console.image }}</p>
+        <img src ="{{ console.image  }}" width=250 height=250 crop="fill">
         <p>{{ console.release_date }}</p>
     {% endfor %}
 {% endblock %}
