@@ -1,14 +1,14 @@
 from django.db import models
-# from consoles.models import Consoles
+from consoles.models import Consoles
 
 
 # Create your models here.
 
 class Games(models.Model):
-    name = models.CharField(max_length=255)
-    # description = models.CharField(max_length=999, blank=True)
-    # console = models.ForeignKey(Consoles, on_delete=models.CASCADE)
-    price = models.FloatField()
+    name = models.CharField(max_length=255, null=True)
+    description = models.CharField(max_length=999, blank=True)
+    console = models.ForeignKey(Consoles, on_delete=models.CASCADE, null=True)
+    price = models.FloatField(null=True)
 
     def __str__(self):
         return self.name
