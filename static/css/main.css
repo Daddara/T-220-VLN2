@@ -26,6 +26,7 @@
 }
 
 .buttonprim {
+    text-decoration: none;
     background-color: rgba(255,255,255,0.2);
     background-repeat:no-repeat;
     border: white solid 1px;
@@ -35,8 +36,6 @@
     outline:none;
     font-size: 30px;
     padding: 10px 50px;
-    text-decoration: none;
-    border-bottom-style: none;
 }
 
 .titlepg {
