@@ -3,16 +3,7 @@
     <div class="consoles">
         <h2>Welcome to the Consoles app</h2>
     </div>
-    {% for console in consoles %}
-        {% if console.price > 300 %}
-            <p>Expensive!</p>
-        {% else %}
-            <p>Not so expensive</p>
-        {% endif %}
-        <h4>{{ console.name }}</h4>
-        <p>{{ console.price }}$</p>
-        <p>{{ console.description }}</p>
-        <img src ="{{ console.image  }}" width=250 height=250 crop="fill">
-        <p>{{ console.release_date }}</p>
+        {% for console in consoles %}
+            {% include 'consoles/single_console.html' with console=console %}
     {% endfor %}
 {% endblock %}

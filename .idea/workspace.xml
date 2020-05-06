@@ -24,7 +24,17 @@
       <change afterPath="$PROJECT_DIR$/static/img/pirateshipfront.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/templates/frontpage/front.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consoles/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/consoles/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consoles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/consoles/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/games/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/games/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/templates/consoles/single_console.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/consoles/single_console.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/games/single_game.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/games/single_game.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navigation.html" afterDir="false" />
+>>>>>>> bed6a7b5d4e0a9e403dc91d6e32c9fcb6331b7f4
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +48,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+<<<<<<< HEAD
         <option value="CSS File" />
+=======
+>>>>>>> bed6a7b5d4e0a9e403dc91d6e32c9fcb6331b7f4
       </list>
     </option>
   </component>
@@ -112,8 +125,13 @@
       <workItem from="1588678285562" duration="145000" />
       <workItem from="1588678444439" duration="10288000" />
       <workItem from="1588690756196" duration="5003000" />
+<<<<<<< HEAD
       <workItem from="1588712628269" duration="2066000" />
       <workItem from="1588760091052" duration="6837000" />
+=======
+      <workItem from="1588712628269" duration="2602000" />
+      <workItem from="1588760306004" duration="6926000" />
+>>>>>>> bed6a7b5d4e0a9e403dc91d6e32c9fcb6331b7f4
     </task>
     <servers />
   </component>
@@ -149,6 +167,7 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588677253163" />
+<<<<<<< HEAD
     <state width="1340" height="264" key="GridCell.Tab.0.bottom" timestamp="1588769138775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -169,6 +188,24 @@
     </state>
     <state width="1340" height="264" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588769138775" />
     <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588714627580" />
+=======
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1588767735239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588767735239" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1588767735239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588767735239" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1588767735239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588767735239" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1588767735239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588767735239" />
+>>>>>>> bed6a7b5d4e0a9e403dc91d6e32c9fcb6331b7f4
     <state x="859" y="461" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1588686562664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
