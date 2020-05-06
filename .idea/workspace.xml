@@ -20,10 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0faf4e02-56d9-472d-b463-4f37d90127e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static/css/frontpg.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/pirateshipfront.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/frontpage/front.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/consoles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/consoles/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/games/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/games/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +33,14 @@
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,11 +52,24 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/img" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Saken\OneDrive\Nám\Nám - Vor20\T_220_VLN2\T-220-VLN2\static\img" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="T-220-VLN2" type="Python.DjangoServer" factoryName="Django server">
@@ -91,6 +113,7 @@
       <workItem from="1588678444439" duration="10288000" />
       <workItem from="1588690756196" duration="5003000" />
       <workItem from="1588712628269" duration="2066000" />
+      <workItem from="1588760091052" duration="6837000" />
     </task>
     <servers />
   </component>
@@ -114,25 +137,37 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588685365268" />
+    <state x="623" y="302" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588761169031">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="302" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588761169031" />
+    <state x="759" y="262" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588766169639">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="759" y="262" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588766169639" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1588677253163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588677253163" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1588714627580">
+    <state width="1340" height="264" key="GridCell.Tab.0.bottom" timestamp="1588769138775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1340" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588769138775" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588714627580" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1588714627580">
+    <state width="1340" height="264" key="GridCell.Tab.0.center" timestamp="1588769138775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1340" height="264" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588769138775" />
     <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588714627580" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1588714627580">
+    <state width="1340" height="264" key="GridCell.Tab.0.left" timestamp="1588769138774">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1340" height="264" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588769138774" />
     <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588714627580" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1588714627580">
+    <state width="1340" height="264" key="GridCell.Tab.0.right" timestamp="1588769138775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1340" height="264" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588769138775" />
     <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588714627580" />
     <state x="859" y="461" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1588686562664">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -146,5 +181,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="122" width="585" height="795" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588673757503" />
+    <state x="692" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1588764310115">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="692" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588764310115" />
   </component>
 </project>

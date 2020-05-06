@@ -6,3 +6,38 @@
      border-bottom: solid 2px rgba(155, 155, 155, .5);
 }
 
+.bodypg {
+    margin: 0 auto;
+    background-image: url("/static/img/pirateshipfront.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -o-background-size: 100% 100%, auto;
+    -moz-background-size: 100% 100%, auto;
+    -webkit-background-size: 100% 100%, auto;
+    background-size: 100% 100%, auto;
+}
+
+.front {
+    text-align: center;
+    margin: 0;
+	padding: 0;
+    padding-top: 350px;
+}
+
+.buttonprim {
+    background-color: rgba(255,255,255,0.2);
+    background-repeat:no-repeat;
+    border: white solid 1px;
+    color: white;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-size: 30px;
+    padding: 10px 50px;
+}
+
+.titlepg {
+    color: lightgray;
+    font-size: 100px;
+}
