@@ -13,3 +13,12 @@ def get_game_by_id(request, id):
     return render(request, 'games/game_details.html', {
         'game': get_object_or_404(Games, pk=id)
     })
+
+def create_game(request):
+    if request.method == "POST":
+        print(1)
+    else:
+        form = GameCreateForm()
+    return render(request, 'games/create_game.html', {
+        'form': form
+    })
