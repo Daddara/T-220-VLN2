@@ -8,7 +8,7 @@ class Games(models.Model):
     name = models.CharField(max_length=999, blank=True)
     image = models.CharField(max_length=999, blank=True)
     release_date = models.DateTimeField(blank=True, null=True)
-    description = models.CharField(max_length=99999, blank=True)
+    description = models.CharField(max_length=9999, blank=True)
     price = models.FloatField(blank=True)
     console = models.CharField(max_length=255, blank=True)
 
