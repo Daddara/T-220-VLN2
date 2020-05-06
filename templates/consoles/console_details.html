@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>{{ console.name }}</h1>
+    <p>{{ console.description }}</p>
+    <p>{{ console.price }}$</p>
+  <img src ="{{ console.image  }}" width=250 height=250 crop="fill">
+{% endblock %}
