@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'games.apps.GamesConfig',
-    'consoles.apps.ConsolesConfig'
+    'consoles.apps.ConsolesConfig',
+    'homepage.apps.HomepageConfig'
 ]
 
 MIDDLEWARE = [
