@@ -19,41 +19,34 @@
 
 </head>
 
-<body class="base-background">
+<body style="padding: 0px;" class="base-background">
 
 {% include 'header.html' %}
 
   <!-- Page Content -->
-  <div class="container">
+<div class="container">
+    <div class="row">
 
-
-      <div class="row">
-
-          <div class="col-lg-9">
-
-            <div class="col-lg-3">
-                <h1 class="my-4">Captain Console</h1>
-                <div class="list-group">
+        <div class="col-lg-3">
+            <h1 class="my-4">Captain Console</h1>
+        </div>
+        <div class="col-lg-9">
+            <div class="list-group">
                 <a href="{% url 'games-index' %}" class="list-group-item">Games</a>
                 <a href="{% url 'consoles-index' %}" class="list-group-item">Consoles</a>
                 <a href="#" class="list-group-item">Other</a>
-                </div>
-
             </div>
-            <!-- /.col-lg-3 -->
+        </div>
+        <!-- /.col-lg-3 -->
 
-          </div>
-          <!-- /.col-lg-9 -->
         {% block content %}
         {% endblock %}
 
-      </div>
-      <!-- /.row -->
+    </div>
+    <!-- /.row -->
 
-
-
-  </div>
-  <!-- /.container -->
+</div>
+<!-- /.container -->
 
 
 {% include 'footer.html' %}
