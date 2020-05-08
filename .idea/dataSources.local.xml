@@ -16,5 +16,10 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
+    <data-source name="Django default" uuid="148dbac2-67a0-4187-9749-91081c3525ee">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="GREENPLUM" exact-version="0" />
+      <user-name>mgbliefp</user-name>
+      <schema-mapping />
+    </data-source>
   </component>
 </project>
