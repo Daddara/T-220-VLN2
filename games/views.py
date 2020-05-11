@@ -1,6 +1,5 @@
 from django.http import JsonResponse
 from django.shortcuts import render, get_object_or_404, redirect
-
 from games.forms.game_form import GameCreateForm, GameUpdateForm
 from games.models import Games
 
@@ -10,7 +9,12 @@ from games.models import Games
 def index(request):
     if 'search_filter' in request.GET:
         search_filter = request.GET['search_filter']
-        games = list(Games.objects.filter(name__icontains=search_filter).values())
+        games = [ {
+            'id': x.id,
+            'name': x.name,
+            'description': x.description,
+            'image': x.image
+        } for x in Games.objects.filter(name__icontains=search_filter)]
         return JsonResponse({'data': games})
     context = {'games': Games.objects.all().order_by('name')}
     return render(request, 'games/index.html', context)
