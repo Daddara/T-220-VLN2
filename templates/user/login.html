@@ -1,12 +1,12 @@
 {% extends "base.html" %}
 {% block content %}
     {% csrf_token %}
-    <div class="container-fluid">
+    <div class="container-fluid background1">
         <div class="row">
             <div class="col-md-4 col-sm-4 col-xs-12"></div>
             <div class="col-md-4 col-sm-4 col-xs-12">
                 <!--form starts-->
-                    <form>
+                    <form class="form-container-login">
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -19,17 +19,17 @@
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                             <label class="form-check-label" for="exampleCheck1">Remember me</label>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-primary btn-block">Submit</button>
                     </form>
                 <!--form ends-->
             </div>
             <div class="col-md-4 col-sm-4 col-xs-12"></div>
         </div>
-    </div>
+    </div><!-- það má skoða þetta type -->
 
 {% endblock %}
 
-<!--
+<!-- þetta var áður en kristján komst í málið
         <form method="post" class="form form-horizontal">
             {% csrf_token %}
             {{ form }}
