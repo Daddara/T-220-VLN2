@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load static %}
 {% block content %}
 
     <div class="row">
@@ -50,5 +51,7 @@
                 {% endfor %}
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.js"></script>
+    <script src="{% static 'js/games.js' %}"></script>
 
 {% endblock %}
