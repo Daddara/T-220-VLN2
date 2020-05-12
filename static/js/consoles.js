@@ -3,13 +3,13 @@ $(document).ready(function () {
         e.preventDefault();
         var searchText = $('#search-box').val()
         $.ajax({
-            url: '/games?search_filter=' + searchText,
+            url: '/consoles?search_filter=' + searchText,
             type: 'GET',
             success: function(resp) {
                 var newHtml = resp.data.map(d => {
                     return `<div class="col-lg-4 col-md-6 mb-4">
                                 <div class="card h-100">
-                                <a href="/games/${d.id}">
+                                <a href="/consoles/${d.id}">
                                     <img class="card-img-top" src ="${ d.image }" width=150 height=150/>
                                     <h4>${d.name}</h4>
                                     <p>${d.description}</p>

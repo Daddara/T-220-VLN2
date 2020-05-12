@@ -14,9 +14,9 @@ def index(request):
             'name': x.name,
             'description': x.description,
             'image': x.image
-        } for x in Games.objects.filter(name__icontains=search_filter)]
-        return JsonResponse({'data': games})
-    context = {'games': Games.objects.all().order_by('name')}
+        } for x in Games.objects.filter(name__icontains=search_filter) ]
+        return JsonResponse({ 'data': games })
+    context = {'games': Games.objects.all().order_by('name') }
     return render(request, 'games/index.html', context)
 
 
