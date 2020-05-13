@@ -35,9 +35,8 @@ $(document).ready(function () {
     });
     $('#sort-games').change(function(){
         const hs = this.value
-        console.log('hæ')
-        console.log(hs)
         window.location = '/games?sort=' + hs
-    })
+    });
+
 });
 
