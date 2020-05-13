@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="640de244-3863-4bad-87ba-476b8510f089" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/T-220-VLN2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/T-220-VLN2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c93d0ba6-fa19-4690-bc91-758b57c9f2cd.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c93d0ba6-fa19-4690-bc91-758b57c9f2cd/storage_v2/_src_/database/mgbliefp.SgzgMA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c93d0ba6-fa19-4690-bc91-758b57c9f2cd/storage_v2/_src_/database/mgbliefp.SgzgMA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c93d0ba6-fa19-4690-bc91-758b57c9f2cd/storage_v2/_src_/database/mgbliefp.SgzgMA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c93d0ba6-fa19-4690-bc91-758b57c9f2cd/storage_v2/_src_/database/mgbliefp.SgzgMA/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c93d0ba6-fa19-4690-bc91-758b57c9f2cd/storage_v2/_src_/database/mgbliefp.SgzgMA/schema/public.abK9xQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_6_2020_1_35_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_6_2020_1_35_PM__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
-    </list>
+    <list default="true" id="640de244-3863-4bad-87ba-476b8510f089" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589387932446</updated>
-      <workItem from="1589387935999" duration="325000" />
+      <workItem from="1589387935999" duration="666000" />
     </task>
     <servers />
   </component>
