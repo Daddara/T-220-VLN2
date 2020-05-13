@@ -23,5 +23,6 @@ urlpatterns = [
     path('consoles/', include('consoles.urls')),
     path('user/', include('user.urls')),
     path('user/checkout/', include('checkout.urls')),
-    path('user/checkout/payment', include('payment.urls'))
+    path('user/checkout/payment', include('payment.urls')),
+    path('user/checkout/receipt', include('receipt.urls'))
 ]

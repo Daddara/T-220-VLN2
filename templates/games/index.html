@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load static %}
 {% block content %}
 
     <div class="row">
@@ -9,8 +10,19 @@
             <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Placeholder</a>
         </div>
         <!-- /.col-lg-3 -->
-    </div>
-    <div class="row">
+    </div>        <form class="navbar-form navbar-left" role="search">
+            <div class="input-group">
+                <input type="search" class="form-control" id="search-box" placeholder="Enter search here"/>
+                <div class="input-group-btn">
+                    <button type="button" id="search-btn" class="btn btn-default">Search</button>
+                </div>
+            </div>
+
+        </form>
+        </div>
+
+
+    <div class="row" id="row-1">
         <div class="col-lg-9">
             <div class="row">
                 <div class="col-lg-9"
@@ -39,5 +51,7 @@
                 {% endfor %}
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.js"></script>
+    <script src="{% static 'js/games.js' %}"></script>
 
 {% endblock %}
