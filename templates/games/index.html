@@ -9,18 +9,20 @@
             <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Placeholder</a>
             <label for="cars">Sorting</label>
                     <select id="sort-games">
-                        <option value="name">Name (a-to-z)</option>
-                        <option value="name">Name (z-to-a)</option>
-                        <option value="price">Price (high-to-low)</option>
-                        <option value="price">Price (low-to-high)</option>
+                        <option value="name">Name (A-Z)</option>
+                        <option value="name">Name (Z-A)</option>
+                        <option value="price">Price (Highest-Lowest)</option>
+                        <option value="price">Price (Lowest-Highest)</option>
                     </select>
         </div>
         <div class="col-lg-3" style="padding: 20px;">
            <form class="navbar-form navbar-left" role="search">
                 <div class="input-group">
-                    <input type="search" class="form-control" id="search-box" placeholder="Enter search here"/>
-                    <div class="input-group-btn">
-                        <button type="button" id="search-btn" class="btn btn-default">Search</button>
+                    <input type="search" class="form-control" id="search-box" placeholder="Search..."/>
+                    <div class="input-group-append">
+                        <button class="btn btn-secondary" type="button">
+                            <i class="fa fa-search"></i>
+                        </button>
                     </div>
                 </div>
            </form>
