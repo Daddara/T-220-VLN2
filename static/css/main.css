@@ -60,33 +60,6 @@ body {
     background-color: blue;
 }
 
-.form-container-login{
-    padding: 20px 30px;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-    -webkit-box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.75);
-}
-
-.form-container-register{
-    padding: 20px 30px;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-    -webkit-box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.75);
-}
-
-.background1{
-    background-image: url('../img/login.png');
-    background-size: 930px 417px;
-}
-
-.background2{
-    background-image: url('../img/register.png');
-    background-size: 930px 417px;
-}
 /* ------SHOPPING CART------ */
 .quantity {
     float: left;
