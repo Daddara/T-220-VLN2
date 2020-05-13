@@ -10,9 +10,9 @@
             <label for="cars">Sorting</label>
                     <select id="sort-games">
                         <option value="name">Name (a-to-z)</option>
-                        <option value="name">Name (z-to-a)</option>
+                        <option value="-name">Name (z-to-a)</option>
                         <option value="price">Price (high-to-low)</option>
-                        <option value="price">Price (low-to-high)</option>
+                        <option value="-price">Price (low-to-high)</option>
                     </select>
         </div>
         <div class="col-lg-3" style="padding: 20px;">
@@ -38,6 +38,7 @@
                             <a href="/games/{{ game.id}}">{{ game.name }}</a>
                         </h4>
                         <h5>$ {{ game.price }}</h5>
+                        <h5> {{ game.console.name }}</h5>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>

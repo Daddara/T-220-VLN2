@@ -17,7 +17,13 @@ def index(request):
             'price': x.price
         } for x in Games.objects.filter(name__icontains=search_filter) ]
         return JsonResponse({ 'data': games })
-    context = {'games': Games.objects.all().order_by('name') }
+    def_order = 'name'
+
+    if 'sort' in request.GET:
+        sort = request.GET['sort']
+        def_order = sort
+
+    context = {'games': Games.objects.all().order_by(def_order) }
     return render(request, 'games/index.html', context)
 
 
