@@ -1,5 +1,9 @@
 {% extends "base.html" %}
 {% block content %}
+    <br>
+    {% if user.is_authenticated %}
+              <img src="{{ user.profile.profile_image }}" class="profile_image" width=200 height=200/>
+    {% endif %}
     <h1>Profile Page</h1>
     <form class="form form-horizontal" method="post">
         {% csrf_token %}
