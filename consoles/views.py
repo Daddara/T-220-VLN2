@@ -5,7 +5,6 @@ from consoles.models import Consoles
 
 def index(request):
     if 'search_filter' in request.GET:
-        print("hæ")
         search_filter = request.GET['search_filter']
         consoles = [ {
             'id': x.id,
