@@ -8,11 +8,20 @@ $(document).ready(function () {
             success: function(resp) {
                 var newHtml = resp.data.map(d => {
                     return `<div class="col-lg-4 col-md-6 mb-4">
-                                <div class="card h-100">
-                                <a href="/games/${d.id}">                              
-                                    <img class="card-img-top" src ="${ d.image }" width=150 height=150/>
-                                    <h4>${d.name}</h4>  </a>
-
+                                <div class="card h-100">                   
+                                 <a href="#" style="text-align: center"><img class="card-img-top"><img src ="${ d.image }" width=150 height=150</a>
+                                 <div class="card-body">
+                                    <h4 class="card-title">
+                                        <a href="/consoles/${d.id}">${d.name}</a>
+                                    </h4>
+                                    <h5>${d.price}</h5>
+                                    </div>
+                                    <div class="card-footer">
+                                     <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                                        </div>
+                                        </div>
+                                    
+                                    
                              </div>`
                 });
                 $('#row-1').html(newHtml.join(''));

@@ -13,7 +13,8 @@ def index(request):
             'id': x.id,
             'name': x.name,
             'description': x.description,
-            'image': x.image
+            'image': x.image,
+            'price': x.price
         } for x in Games.objects.filter(name__icontains=search_filter) ]
         return JsonResponse({ 'data': games })
     context = {'games': Games.objects.all().order_by('name') }

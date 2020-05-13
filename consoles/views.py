@@ -10,7 +10,8 @@ def index(request):
             'id': x.id,
             'name': x.name,
             'description': x.description,
-            'image': x.image
+            'image': x.image,
+            'price': x.price
         } for x in Consoles.objects.filter(name__icontains=search_filter) ]
         return JsonResponse({ 'data': consoles})
     context = {'consoles': Consoles.objects.all().order_by('name')}
