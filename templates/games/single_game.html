@@ -1,8 +1,14 @@
-<div class="well games">
-    <a href="/games/{{ game.id}}">
-        <img src ="{{ game.image  }}" width=250 height=250 crop="fill">
-        <h4>{{ game.name }}</h4>
-        <p>{{ game.release_date }}</p>
-        <p class="card-text">{{ game.description }}</p>
-    </a>
-</div>
+<div class="col-lg-4 col-md-6 mb-4">
+        <div class="card h-100">
+            <a href="#" style="text-align: center"><img class="card-img-top"><img  src ="{{ game.image  }}" width=150 height=150></a>
+            <div class="card-body">
+                <h4 class="card-title">
+                    <a href="/games/{{ game.id}}">{{ game.name }}</a>
+                </h4>
+                <h5>$ {{ game.price }}</h5>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+            </div>
+        </div>
+    </div>
