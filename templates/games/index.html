@@ -4,52 +4,41 @@
 
     <div class="row">
 
-        <div class="col-lg-12" style="padding: 20px;">
+        <div class="col-lg-9" style="padding: 20px;">
             <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">All games</a>
             <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Placeholder</a>
             <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Placeholder</a>
         </div>
-        <!-- /.col-lg-3 -->
-    </div>        <form class="navbar-form navbar-left" role="search">
-            <div class="input-group">
-                <input type="search" class="form-control" id="search-box" placeholder="Enter search here"/>
-                <div class="input-group-btn">
-                    <button type="button" id="search-btn" class="btn btn-default">Search</button>
+        <div class="col-lg-3" style="padding: 20px;">
+           <form class="navbar-form navbar-left" role="search">
+                <div class="input-group">
+                    <input type="search" class="form-control" id="search-box" placeholder="Enter search here"/>
+                    <div class="input-group-btn">
+                        <button type="button" id="search-btn" class="btn btn-default">Search</button>
+                    </div>
                 </div>
-            </div>
-
-        </form>
+           </form>
         </div>
-
+    </div>
+    <br>
 
     <div class="row" id="row-1">
-        <div class="col-lg-9">
-            <div class="row">
-                <div class="col-lg-9"
-                    <div class="games">
-                        <h2>Placeholder</h2>
+        {% for game in games %}
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <a href="#" style="text-align: center"><img class="card-img-top"><img  src ="{{ game.image  }}" width=150 height=150></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="/games/{{ game.id}}">{{ game.name }}</a>
+                        </h4>
+                        <h5>$ {{ game.price }}</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
                     </div>
                 </div>
             </div>
-
-
-                {% for game in games %}
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="card h-100">
-                            <a href="#" style="text-align: center"><img class="card-img-top"><img  src ="{{ game.image  }}" width=150 height=150></a>
-                            <div class="card-body">
-                                <h4 class="card-title">
-                                    <a href="/games/{{ game.id}}">{{ game.name }}</a>
-                                </h4>
-                                <h5>$ {{ game.price }}</h5>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                            </div>
-                        </div>
-                    </div>
-                {% endfor %}
-        </div>
+        {% endfor %}
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.js"></script>
     <script src="{% static 'js/games.js' %}"></script>
