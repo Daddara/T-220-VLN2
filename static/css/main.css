@@ -7,24 +7,16 @@ body {
   padding-top: 56px;
 }
 
+#back {
+    background: lightgray;
+}
+
 .consoles {
      border-bottom: solid 2px rgba(155, 155, 155, .5);
 }
 
 .games {
      border-bottom: solid 2px rgba(155, 155, 155, .5);
-}
-
-.bodypg {
-    margin: 0 auto;
-    background-image: url("/static/img/cover.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    -o-background-size: 100% 100%, auto;
-    -moz-background-size: 100% 100%, auto;
-    -webkit-background-size: 100% 100%, auto;
-    background-size: 100% 100%, auto;
 }
 
 .front {
