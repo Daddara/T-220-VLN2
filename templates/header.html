@@ -1,4 +1,4 @@
-<nav class="py-5 bg-dark">
+<nav class="py-3 bg-dark">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <div class="container">
@@ -22,9 +22,7 @@
               <a href="{% url 'register' %}"><i class="fa fa-fw fa-user"></i> Register</a>
           {% endif %}
       </ul>
-          {% if user.is_authenticated %}
-              <img src="{{ user.profile.profile_image }}" class="profile_image" />
-          {% endif %}
-  </div><!-- /.container-fluid -->
+
+  </div>
 
 </nav>
