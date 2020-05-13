@@ -14,7 +14,7 @@ $(document).ready(function () {
                                     <h4 class="card-title">
                                         <a href="/consoles/${d.id}">${d.name}</a>
                                     </h4>
-                                    <h5>${d.price}$</h5>
+                                    <h5>$${d.price}</h5>
                                     </div>
                                     <div class="card-footer">
                                      <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
