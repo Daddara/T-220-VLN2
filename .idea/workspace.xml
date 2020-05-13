@@ -20,13 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="640de244-3863-4bad-87ba-476b8510f089" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nintendo 64 games/Nintendo-Population-script.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Nintendo 64 games/Nintendo-Population-script.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Playstation 1/PS1-Pop-Script.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Playstation 1/PS1-Pop-Script.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Playstation 2/PS2-Pop-Script.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Playstation 2/PS2-Pop-Script.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sega Mega/SegaMega-Pop-Script.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sega Mega/SegaMega-Pop-Script.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/games.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/games.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/consoles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/consoles/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/games/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/games/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
