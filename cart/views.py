@@ -31,6 +31,7 @@ def add_to_cart(request, id):
             cart_instance.save()
     return redirect('hp-index')
 
+
 def index(request):
-    context = {'cart': Cart.objects.all().order_by('name') }
+    context = {'cart': Cart.objects.all().order_by('game')}
     return render(request, 'checkout/checkout.html', context)
