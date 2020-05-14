@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from math import floor
 
 # Create your views here.
 from cart.models import Cart
@@ -20,5 +21,6 @@ def index(request):
             console = Consoles.objects.filter(pk=instance.console.id).first()
             product_list.append(console)
             price += console.price
+    price = round(price, 2)
     context = {'cart': product_list, 'total_price': price}
     return render(request, 'checkout/checkout.html', context)

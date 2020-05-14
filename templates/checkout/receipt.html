@@ -2,14 +2,6 @@
 {% block content %}
 
 <div id="invoice">
-
-    <div class="toolbar hidden-print">
-        <div class="text-right">
-            <button id="printInvoice" class="btn btn-info"><i class="fa fa-print"></i> Print</button>
-            <button class="btn btn-info"><i class="fa fa-file-pdf-o"></i> Export as PDF</button>
-        </div>
-        <hr>
-    </div>
     <div class="invoice overflow-auto">
         <div style="min-width: 600px">
             <header>
@@ -19,11 +11,11 @@
                         <h3>Retro Gamestore</h3>
                     </div>
                     <div class="col company-details">
-                        <div>www.captainconsole.com</div>
-                        <div>Haskólavegur 1</div>
-                        <div>101 Reykjavík</div>
-                        <div>Iceland</div>
-                        <div>info@captainconsole.com</div>
+                        <h5>www.captainconsole.com</h5>
+                        <h5>Haskólavegur 1</h5>
+                        <h5>101 Reykjavík</h5>
+                        <h5>Iceland</h5>
+                        <h5>info@captainconsole.com</h5>
                     </div>
                 </div>
             </header>
@@ -31,9 +23,8 @@
                 <div class="row contacts">
                     <div class="col invoice-to">
                         <div class="text-gray-light">INVOICE TO:</div>
-                        <h2 class="to">Kristján Mar Svavarsson</h2>
-                        <div class="address">Einhversstaðar útí Rassgati 195</div>
-                        <div class="email"><a href="">kiddikaldi@gmail.com</a></div>
+                        <h3>Kristján Mar Svavarsson</h3>
+                        <h5>Einhversstaðar útí Rassgati 195</h5>
                     </div>
                     <div class="col invoice-details">
                         <div class="date">Date of Invoice: 30/05/2020</div>
@@ -51,33 +42,21 @@
                         </tr>
                     </thead>
                     <tbody>
+                    <! --- hernaln -->
+                    {% for product in cart %}
                         <tr>
-                            <td class="no">01</td>
-                            <td class="text-left"><h3>PRODUCT NAME</h3>Useful videos</td>
-                            <td class="total">$0.00</td>
+                            <td class="no">.</td>
+                            <td class="text-left"><h3>{{ product.name }}</h3></td>
+                            <td class="total">${{ product.price }}</td>
                         </tr>
-                        <tr>
-                            <td class="no">02</td>
-                            <td class="text-left"><h3>PRODUCT NAME</h3>Product Description</td>
-                            <td class="total">$1,200.00</td>
-                        </tr>
-                        <tr>
-                            <td class="no">03</td>
-                            <td class="text-left"><h3>PRODUCT NAME</h3>Product Description</td>
-                            <td class="total">$3,200.00</td>
-                        </tr>
-                        <tr>
-                            <td class="no">04</td>
-                            <td class="text-left"><h3>PRODUCT NAME</h3>Product Description</td>
-                            <td class="total">$800.00</td>
-                        </tr>
+                    {% endfor %}
                     </tbody>
                     <tfoot>
 
                         <tr>
                             <td colspan="1"></td>
                             <td>GRAND TOTAL:</td>
-                            <td>$6,500.00</td>
+                            <td>${{ total_price }}</td>
                         </tr>
                     </tfoot>
                 </table>
