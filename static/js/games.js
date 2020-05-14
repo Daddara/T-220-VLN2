@@ -12,7 +12,7 @@ $(document).ready(function () {
                                  <a href="#" style="text-align: center"><img class="card-img-top"><img src ="${ d.image }" width=150 height=150</a>
                                  <div class="card-body">
                                     <h4 class="card-title">
-                                        <a href="/consoles/${d.id}">${d.name}</a>
+                                        <a href="/games/${d.id}">${d.name}</a>
                                     </h4>
                                     <h5>$${d.price}</h5>
                                     </div>
@@ -50,7 +50,7 @@ $(document).ready(function () {
                                  <a href="#" style="text-align: center"><img class="card-img-top"><img src ="${ d.image }" width=150 height=150</a>
                                  <div class="card-body">
                                     <h4 class="card-title">
-                                        <a href="/consoles/${d.id}">${d.name}</a>
+                                        <a href="/games/${d.id}">${d.name}</a>
                                     </h4>
                                     <h5>$${d.price}</h5>
                                     </div>

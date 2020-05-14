@@ -32,13 +32,9 @@ $(document).ready(function () {
             }
         })
     });
-
-});
-$(document).ready(function(){
-  $("#myInput").on("keyup", function() {
-    var value = $(this).val().toLowerCase();
-    $(".dropdown-menu li").filter(function() {
-      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        $('#sort-games').change(function(){
+        const hs = this.value
+        window.location = '/consoles?sort=' + hs
     });
-  });
+
 });
