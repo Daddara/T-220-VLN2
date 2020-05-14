@@ -1,8 +1,12 @@
 {% extends "base.html" %}
 {% block content %}
-    <br>
     <h1>Profile Page</h1>
     {% if user.is_authenticated %}
+        {% if user.profile.profile_name == None %}
+            <h2> </h2>
+        {% else %}
+            <h2>{{ user.profile.profile_name }}</h2>
+        {% endif %}
         <img src="{{ user.profile.profile_image }}" class="profile_image" width=200 height=200/>
     {% endif %}
     <br><br>
