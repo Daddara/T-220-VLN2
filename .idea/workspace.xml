@@ -24,9 +24,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/92145b0a-5743-485e-a5a0-467ec13bb5d3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/92145b0a-5743-485e-a5a0-467ec13bb5d3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/92145b0a-5743-485e-a5a0-467ec13bb5d3/storage_v2/_src_/database/mgbliefp.SgzgMA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/92145b0a-5743-485e-a5a0-467ec13bb5d3/storage_v2/_src_/database/mgbliefp.SgzgMA/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/games/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/games/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/js/games.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/games.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/games/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/games/index.html" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
+>>>>>>> 9796cc75c01fc7cb7124bbe76da1e241831153d5
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
