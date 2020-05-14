@@ -23,6 +23,17 @@ def index(request):
         sort = request.GET['sort']
         def_order = sort
 
+    if 'consoles' in request.GET:
+        consoles = request.GET['consoles']
+        games = [ {
+            'id': x.id,
+            'name': x.name,
+            'description': x.description,
+            'image': x.image,
+            'price': x.price
+        } for x in Games.objects.filter(console_id=consoles) ]
+        return JsonResponse({ 'data': games })
+
     context = {'games': Games.objects.all().order_by(def_order) }
     return render(request, 'games/index.html', context)
 
