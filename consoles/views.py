@@ -14,7 +14,13 @@ def index(request):
             'price': x.price
         } for x in Consoles.objects.filter(name__icontains=search_filter) ]
         return JsonResponse({ 'data': consoles})
-    context = {'consoles': Consoles.objects.all().order_by('name')}
+    def_order = 'name'
+
+    if 'sort' in request.GET:
+        sort = request.GET['sort']
+        def_order = sort
+
+    context = {'consoles': Consoles.objects.all().order_by(def_order)}
     return render(request, 'consoles/index.html', context)
 
 def get_console_by_id(request, id):
