@@ -3,6 +3,7 @@
     <h1>{{ game.name }}</h1>
     <p>{{ game.description }}</p>
     <p>{{ game.price }}$</p>
+     <p>{{ game.console.name }}</p>
   <img src ="{{ game.image  }}" width=250 height=250 crop="fill">
     <a href="{% url 'delete_game' game.id %}" class="block btn btn primary">Delete game</a>
     <a href="{% url 'update_game' game.id %}" class="block btn btn primary">Update game</a>
