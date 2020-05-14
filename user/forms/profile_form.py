@@ -5,8 +5,7 @@ from user.models import Profile
 class ProfileForm(ModelForm):
     class Meta:
         model = Profile
-        exclude = [ 'id', 'user']
+        exclude = ['id', 'user']
         widgets = {
-            'profile_image': widgets.TextInput(attrs={'class': 'form_control'}),
-            'profile_name': widgets.TextInput(attrs={'class': 'form_control'})
+            'profile_image': widgets.TextInput(attrs={'class': 'form_control'})
         }
