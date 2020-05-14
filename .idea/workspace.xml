@@ -21,8 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="640de244-3863-4bad-87ba-476b8510f089" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/checkout/payment.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/checkout/payment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/checkout/receipt.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/checkout/receipt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/consoles.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/consoles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/games.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/games.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/consoles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/consoles/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/games/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/games/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
