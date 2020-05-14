@@ -20,7 +20,7 @@ def add_to_cart(request, id):
         else:
             cart_instance.quantity += 1
             cart_instance.save()
-    else:
+    if request.GET['type'] == 'console':
         co = Consoles.objects.filter(pk=id).first()
         cart_instance = Cart.objects.filter(u=user, console=co).first()
         if cart_instance == None:
@@ -29,6 +29,7 @@ def add_to_cart(request, id):
         else:
             cart_instance.quantity += 1
             cart_instance.save()
+
     return redirect('hp-index')
 
 
