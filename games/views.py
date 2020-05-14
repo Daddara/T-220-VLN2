@@ -30,7 +30,8 @@ def index(request):
             'name': x.name,
             'description': x.description,
             'image': x.image,
-            'price': x.price
+            'price': x.price,
+            'console': x.console_id
         } for x in Games.objects.filter(console_id=consoles) ]
         return JsonResponse({ 'data': games })
 

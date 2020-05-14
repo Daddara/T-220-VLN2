@@ -40,8 +40,6 @@ $(document).ready(function () {
         $('#myInput').on('change', function(e) {
         e.preventDefault();
         const searchText = this.value;
-        print('hæ');
-        print(searchText);
         $.ajax({
             url: '/games?consoles=' + searchText,
             type: 'GET',
