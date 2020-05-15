@@ -23,10 +23,7 @@ def index(request):
             product_list.append(console)
             cart_ids.append(instance.id)
             price += console.price
-<<<<<<< HEAD
-    context = {'cart': product_list, 'total_price': price, 'cart_id': cart_ids}
-=======
+
     price = round(price, 2)
     context = {'cart': product_list, 'total_price': price}
->>>>>>> 1f8cb5cb913d079f6da3ed6f58922c44571b3163
     return render(request, 'checkout/checkout.html', context)
