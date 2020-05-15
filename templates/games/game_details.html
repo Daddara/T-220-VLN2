@@ -5,7 +5,7 @@
         <img src ="{{ game.image  }}" width=250 height=250 crop="fill">
     {% if user.is_authenticated %}
         <button type="button" class="btn btn-warning">
-            <a href="/cart/add_to_cart/{{ console.id }}?type=console">Add to cart <i class="fa fa-fw fa-shopping-cart"></i></a>
+            <a href="/cart/add_to_cart/{{ game.id }}?type=game">Add to cart <i class="fa fa-fw fa-shopping-cart"></i></a>
         </button>
 
     {% else %}
