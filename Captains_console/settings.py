@@ -42,7 +42,9 @@ INSTALLED_APPS = [
     'consoles.apps.ConsolesConfig',
     'homepage.apps.HomepageConfig',
     'user.apps.UserConfig',
-    'cart.apps.CartConfig'
+    'cart.apps.CartConfig',
+    'payment.apps.PaymentConfig',
+    'receipt.apps.ReceiptConfig'
 ]
 
 MIDDLEWARE = [

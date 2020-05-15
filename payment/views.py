@@ -4,6 +4,7 @@ from django.shortcuts import render
 from cart.models import Cart
 from consoles.models import Consoles
 from games.models import Games
+from payment.models import Payment
 
 
 def index(request):
@@ -23,3 +24,8 @@ def index(request):
     price = round(price, 2)
     context = {'cart': product_list, 'total_price': price}
     return render(request, 'checkout/payment.html', context)
+
+
+def post_req(request):
+    if request.method == "POST":
+        pass
