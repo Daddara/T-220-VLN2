@@ -1,6 +1,6 @@
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 
 # Create your views here.
 from cart.models import Cart
@@ -30,9 +30,5 @@ def add_to_cart(request, id):
             cart_instance.quantity += 1
             cart_instance.save()
 
-    return redirect('hp-index')
+    return redirect('co-index')
 
-
-def index(request):
-    context = {'cart': Cart.objects.all().order_by('game')}
-    return render(request, 'checkout/checkout.html', context)
