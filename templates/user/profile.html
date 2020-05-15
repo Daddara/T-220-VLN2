@@ -1,19 +1,24 @@
 {% extends "base.html" %}
 {% block content %}
-    <h1>Profile Page</h1>
-    {% if user.is_authenticated %}
+
+    <div class="row">
+        <div class="col-md-10 mx-auto">
+        <h1>Profile Page</h1>
+        {% if user.is_authenticated %}
         {% if user.profile.profile_name == None %}
             <h2> </h2>
         {% else %}
             <h2>{{ user.profile.profile_name }}</h2>
         {% endif %}
         <img src="{{ user.profile.profile_image }}" class="profile_image" width=200 height=200/>
-    {% endif %}
-    <br><br>
-    <form class="form form-horizontal" method="post">
-        {% csrf_token %}
-        {{ form }}
-        <input type="submit" class="btn btn-primary" value="Update">
-    </form>
+        {% endif %}
+        <br><br>
+        <form class="form form-horizontal" method="post">
+            {% csrf_token %}
+            {{ form }}
+            <input type="submit" class="btn btn-secondary" value="Update">
+        </form>
+        </div>
+    </div>
     <h1></h1>
 {% endblock %}

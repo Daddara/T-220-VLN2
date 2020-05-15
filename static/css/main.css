@@ -456,3 +456,6 @@ body {
 /*-----END SEARCH BUTTONS------*/
 
 
+.base-container{
+    min-height: 800px;
+}
