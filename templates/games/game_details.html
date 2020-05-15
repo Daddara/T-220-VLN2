@@ -7,5 +7,5 @@
   <img src ="{{ game.image  }}" width=250 height=250 crop="fill">
     <a href="{% url 'delete_game' game.id %}" class="block btn btn primary">Delete game</a>
     <a href="{% url 'update_game' game.id %}" class="block btn btn primary">Update game</a>
-    <a href="/cart/add_to_cart/{{ game.id }}?type=game">Add to cart</a>
+    <a href="/cart/add_to_cart/{{ game.id }}?type=game">Add to cart <i class="fa fa-fw fa-shopping-cart"></i></a>
 {% endblock %}
