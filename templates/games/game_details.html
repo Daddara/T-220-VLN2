@@ -7,6 +7,11 @@
         <button type="button" class="btn btn-warning">
             <a href="/cart/add_to_cart/{{ console.id }}?type=console">Add to cart <i class="fa fa-fw fa-shopping-cart"></i></a>
         </button>
+
+    {% else %}
+        <button type="button" class="btn btn-warning">
+            <a href="{% url 'login' %}">Login to add to cart <i class="fa fa-fw fa-shopping-cart"></i></a>
+        </button>
     {% endif %}
         <h2><span class="badge badge-pill badge-success">$ {{ game.price }}</span></h2>
         <h1>{{ game.name }}</h1>
