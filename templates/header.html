@@ -17,9 +17,11 @@
             <li class="nav-item">
                 <a class="nav-link" href="{% url 'consoles-index' %}"><i class="fa fa-fw fa-laptop"></i> Consoles </a>
             </li>
+        {% if user.is_authenticated %}
             <li class="nav-item">
                 <a class="nav-link" href="{% url 'co-index' %}"><i class="fa fa-fw fa-shopping-cart"></i> Shopping Cart</a>
             </li>
+        {% endif %}
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-fw fa-user"></i> Account </a>
 
