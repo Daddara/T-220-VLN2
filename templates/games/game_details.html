@@ -6,9 +6,9 @@
         <button type="button" class="btn btn-warning">
             <a href="/cart/add_to_cart/{{ console.id }}?type=console">Add to cart <i class="fa fa-fw fa-shopping-cart"></i></a>
         </button>
+        <h2><span class="badge badge-pill badge-success">$ {{ game.price }}</span></h2>
         <h1>{{ game.name }}</h1>
         <h4>{{ game.console.name }}</h4>
-        <span class="badge badge-pill badge-success">$ {{ game.price }}</span>
         <p>{{ game.description }}</p>
 
             {% if user.is_authenticated %}
