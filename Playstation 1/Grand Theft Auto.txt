@@ -1,5 +1,0 @@
-('Grand Theft Auto',
-'https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/GTA_-_Box_Front.jpg/220px-GTA_-_Box_Front.jpg'
-'10-21-1997',
-'Grand Theft Auto is an action-adventure game, developed by DMA Design and published by BMG Interactive for MS-DOS and Microsoft Windows in October 1997; versions for the Sega Saturn and Nintendo 64 were planned, but never finalised. It is the first instalment of the Grand Theft Auto series, and was developed after its original concept, titled Race'n'Chase, was scrapped due to production issues.[5] The game focuses on players taking on the role of a criminal who conducts jobs for various syndicates across three fictionalised versions of US cities, completing levels by achieving a set score, but within an open-world environment that allows them to do whatever they wish alongside jobs to achieve their goal.',
-'29.99')

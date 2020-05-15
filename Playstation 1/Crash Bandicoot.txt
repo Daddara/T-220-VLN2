@@ -1,7 +1,0 @@
-('Crash Bandicoot',
-'https://upload.wikimedia.org/wikipedia/en/4/44/Crash_Bandicoot_Cover.png',
-'09-09-1996',
-'Crash Bandicoot is a platform video game developed by Naughty Dog and published by Sony Computer Entertainment for the PlayStation. The game was released in North America in September 1996, and in Europe in November 1996.
-
-Crash Bandicoot is the first installment in the Crash Bandicoot series, chronicling the creation of the title character at the hands of series antagonist Doctor Neo Cortex and henchman Doctor Nitrus Brio. The story follows Crash as he aims to prevent Brio and Cortex's plans for world domination, and rescue his girlfriend Tawna, a female bandicoot also evolved by Brio and Cortex.',
-'25.99')

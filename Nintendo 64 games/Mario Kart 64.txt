@@ -1,9 +1,0 @@
-('Mario Kart 64',
-'https://www.mobygames.com/images/covers/l/452137-mario-kart-64-nintendo-64-manual.jpg',
-'12-14-1996',
-'Mario Kart 64 is a kart racing video game developed and published by Nintendo 
-for the Nintendo 64. It is the successor to Super Mario Kart for the 
-Super Nintendo Entertainment System, and the second game in the Mario Kart series. 
-It was released in Japan on December 14, 1996, and in North America and 
-Europe in 1997.',
-'19.99')

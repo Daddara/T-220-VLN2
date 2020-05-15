@@ -1,5 +1,0 @@
-('Kingdom Hearts 2',
-'https://images-na.ssl-images-amazon.com/images/I/71rDRcLOf8L._AC_SY606_.jpg',
-'12-22-2005',
-'Kingdom Hearts II is a 2005 action role-playing game developed and published by Square Enix for the PlayStation 2 video game console. The game is a sequel to Kingdom Hearts, and like the original game, combines characters and settings from Disney films with those of Square Enix Final Fantasy series',
-'25.99')

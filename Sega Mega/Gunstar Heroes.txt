@@ -1,5 +1,0 @@
-('Gunstar Heroes',
-'https://upload.wikimedia.org/wikipedia/en/thumb/d/db/GunstarHeroesMDcover.png/220px-GunstarHeroesMDcover.png',
-'09-10-1993',
-'Gunstar Heroes is a run and gun video game developed by Treasure and published by Sega. It was Treasure debut game, originally released on the Sega Mega Drive/Genesis in 1993. The game's premise is centered around a pair of characters, the Gunstars, in their efforts to stop an evil empire from recovering four powerful gems. The characters can fire guns and perform a series of acrobatic maneuvers to fight enemies across each stage. There are four weapons in the game which can be combined with one another to create different shot types.',
-'15.99')

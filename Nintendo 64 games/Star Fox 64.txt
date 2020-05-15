@@ -1,8 +1,0 @@
-('Star Fox 64',
-'https://www.lukiegames.com/assets/images/N64/n64_star_fox_64_p_dtqaby.jpg',
-'04-27-1997',
-'Star Fox 64, known in the PAL region as Lylat Wars, is a 3D scrolling shooter 
-game themed around aircraft combat for the Nintendo 64 video game console. 
-It is a reboot of the original Star Fox, and the only game in the Star Fox series
-to be released on the Nintendo 64',
-'24.99')

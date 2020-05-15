@@ -1,5 +1,0 @@
-('Castlevania - Bloodlines',
-'https://www.schnittberichte.com/www/SBs/3300/e_cover.jpg',
-'03-17-1994',
-'Castlevania: Bloodlines is a platform game developed and published by Konami for the Sega Genesis. It was the only Castlevania video game released on the Genesis. The games storyline concerns a legendary vampire named Elizabeth Bartley, who is Draculas niece, suddenly appearing in the 20th century.',
-'19.99')

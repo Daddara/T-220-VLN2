@@ -10,7 +10,6 @@ from payment.models import Payment
 def index(request):
     cart_instances = Cart.objects.filter(u=request.user)
     product_list = []
-    cart_ids = []
     price = 0
     for instance in cart_instances:
         if instance.game != None:
@@ -26,6 +25,3 @@ def index(request):
     return render(request, 'checkout/payment.html', context)
 
 
-def post_req(request):
-    if request.method == "POST":
-        pass

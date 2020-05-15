@@ -1,5 +1,0 @@
-('Tekken 5',
-'https://vignette.wikia.nocookie.net/tekken/images/4/4b/Tekken-5_box-art.jpg/revision/latest?cb=20170404132012&path-prefix=en',
-'03-05-2004',
-'Tekken 5 is a fighting game developed and published by Namco in 2004 for the arcades and in 2005 for the PlayStation 2. It is the sixth main installment, in the Tekken series, marking the tenth anniversary of the series.',
-'19.99')

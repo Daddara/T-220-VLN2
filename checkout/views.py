@@ -27,3 +27,8 @@ def index(request):
     price = round(price, 2)
     context = {'cart': product_list, 'total_price': price}
     return render(request, 'checkout/checkout.html', context)
+
+
+def post_req(request):
+    if request.method == "POST":
+        pass

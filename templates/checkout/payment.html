@@ -10,7 +10,7 @@
           <h2>Payment</h2>
           <p>Please verify your items and enter your card information.</p>
         </div>
-        <form>
+        <form name="cardInfo" id="cardInfo">
           <div class="products">
             <h3 class="title">Checkout</h3>
 
@@ -29,15 +29,15 @@
                 <! -- full name, street name, house number, city, country (as a select), postal code. -->
               <div class="form-group col-sm-7">
                 <label for="card-holder">Card Holder / Full name</label>
-                <input id="card-holder" type="text" class="form-control" placeholder="Card Holder" aria-label="Card Holder" aria-describedby="basic-addon1">
+                <input name="card_holder" id="card-holder" type="text" class="form-control" placeholder="Card Holder" aria-label="Card Holder" aria-describedby="basic-addon1">
               </div>
               <div class="form-group col-sm-5">
                   <label for="city">City</label>
-                  <input id="city" type="text" class="form-control" placeholder="City" aria-label="City" aria-describedby="basic-addon1">
+                  <input name="city" id="city" type="text" class="form-control" placeholder="City" aria-label="City" aria-describedby="basic-addon1">
               </div>
               <div class="form-group col-sm-5">
                 <label for="address">Address</label>
-                <input id="address" type="text" class="form-control" placeholder="Address" aria-label="Address" aria-describedby="basic-addon1">
+                <input name="address" id="address" type="text" class="form-control" placeholder="Address" aria-label="Address" aria-describedby="basic-addon1">
               </div>
               <div class="form-group col-sm-3">
                   <label for="house-number">House Nr.</label>
@@ -315,7 +315,7 @@
                 <input id="cvc" type="text" class="form-control" placeholder="CVC" aria-label="Card Holder" aria-describedby="basic-addon1">
               </div>
               <a class="form-group col-sm-12">
-                  <a href="{% url 'receipt-index' %}" <button type="button" class="btn btn-primary btn-block" method="post">Proceed</button></a>
+                  <a href="{% url 'receipt-index' %}" <button type="button" class="btn btn-primary btn-block" method="post" id="payment">Proceed</button></a>
                   <a href="{% url 'co-index' %}" <button type="button" class="btn btn-primary btn-block">Back</button></a>
               </div>
             </div>

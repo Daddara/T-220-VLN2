@@ -1,9 +1,0 @@
-('Super Mario 64',
-'https://www.mobygames.com/images/covers/l/497224-super-mario-64-wii-u-front-cover.jpg',
-'06-23-1996',
-'Super Mario 64 is a 1996 platform video game for the Nintendo 64 and 
-the first in the Super Mario series to feature three-dimensional gameplay. 
-As Mario, the player explores Princess Peach's castle and must rescue 
-her from Bowser.',
-'29.99')
-
