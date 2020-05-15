@@ -1,10 +1,19 @@
 {% extends "base.html" %}
 {% block content %}
-    <form method="post" class="form form-horizontal">
-    <h1>Login</h1>
-        {% csrf_token %}
-        {{ form }}
-        <input type="submit" class="btn btn-primary" value="Login" />
-        <h1></h1>
-    </form>
+    <div class="row">
+        <div class="col-lg-4 col-md-10 mx-auto">
+            <form method="post" class="form">
+                <h2>Login to your account</h2>
+                <br>
+                    {% csrf_token %}
+                    {{ form }}
+                <div class="text-center">
+                    <input type="submit" class="btn btn-secondary pull-down" value="Login"/>
+                </div>
+                <div class="text-right">
+                    <a class="btn btn-secondary" href="{% url 'register' %}"></i> Register</a>
+                </div>
+            </form>
+        </div>
+    </div>
 {% endblock %}
