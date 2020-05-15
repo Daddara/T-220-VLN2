@@ -2,52 +2,42 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+        <title>Captain Console</title>
 
-  <title>Captain Console</title>
+        <!-- Bootstrap core CSS -->
+        <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
 
-  <!-- Bootstrap core CSS -->
-  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="{% static 'css/main.css' %}" rel="stylesheet">
+    </head>
 
-  <!-- Custom styles for this template -->
-  <link href="{% static 'css/main.css' %}" rel="stylesheet">
+    <body style="padding-top: 70px;" class="base-background" id="back">
 
-</head>
+        {% include 'header.html' %}
 
-<body style="padding-top: 70px;" class="base-background" id="back">
+        <!-- Page Content -->
+        <div class="container">
 
-{% include 'header.html' %}
+            {% block content %}
+            {% endblock %}
 
-  <!-- Page Content -->
-<div class="container">
+            <!-- /.row -->
+            <img src="/static/img/bannerfinal.png" class="img-fluid">
 
-        {% block content %}
-        {% endblock %}
+            </div>
+        <!-- /.container -->
 
+            {% include 'footer.html' %}
 
-    <!-- /.row -->
-<img src="/static/img/bannerfinal.png" class="img-fluid">
-
-</div>
-<!-- /.container -->
-
-    {% include 'footer.html' %}
-
-
-
-  <!-- Bootstrap core JavaScript -->
   <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
   <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
 
-
-
-
-</body>
-
+    </body>
 
 </html>

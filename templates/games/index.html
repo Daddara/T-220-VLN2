@@ -3,7 +3,6 @@
 {% block content %}
 
     <div class="row">
-
         <div class="col-lg-9" style="padding: 20px;">
             <div>
                     <select id="myInput">
@@ -14,7 +13,6 @@
                         <option value="20">Gameboy</option>
                         <option value="21">SegaGensis</option>
                     </select>
-
             </div>
                     <select id="sort-games">
                         <option value="" disabled selected>Sort by</option>
@@ -60,6 +58,7 @@
             </div>
         {% endfor %}
     </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.js"></script>
     <script src="{% static 'js/games.js' %}"></script>
 
